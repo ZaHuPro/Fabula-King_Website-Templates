@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: context-menu;
+    color: #292d39;
+    font-family: 'Acme', sans-serif;
+
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
+}
+
+
+
+/* Nav Bar Style Starts */
+
+.navBar {
+}
+
+.nav-logo {
+    padding: 10px;
+    margin-left:10em;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.nav-logo:hover{
+    border-radius: .2rem;
+    background-color:  rgb(99, 209, 205);
+   
+}
+.nav-logo span {
+    color: #444f72;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-logo h1 {
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.nav-logo h2 {
+    font-size: 1rem;
+    font-weight: 000;
+    margin: 0px;
+}
+
+.nav-menu {
+    font-size: 1rem;
+}
+
+.page-list {
+    margin-right: 5em;
+    text-align: center;
+}
+
+.page{
+    min-width: 110px;
+    cursor: pointer;
+    padding: .8rem;
+}
+.page p {
+    color: #fff;
+    margin: 0px;
+    -webkit-transition: padding 1s; /* Safari */
+    transition: padding 1s;
+}
+
+.page i{
+    color: #fff;
+    margin: auto;
+    font-weight: 0;
+    font-size: 1rem;
+    padding: 4px;
+}
+
+.active{
+    /* border-radius: .2rem;
+    -webkit-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2);
+    -moz-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2);
+    box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2); */
+    
+}
+
+
+.page:hover {
+    border-radius: .2rem;
+    background-color:  rgb(99, 209, 205);
+    /* -webkit-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5);
+    -moz-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5);
+    box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5); */
+
+  
+}
+
+/* Nav Bar Style Ends */
+
+/* Home Page Style Starts */
+
+
+.banner{
+    padding: 2rem;
+    text-align: center;
+    min-height: 350px;
+}
+.bannerText{
+    font-family: 'Acme', sans-serif !important;
+}
+.bannerText h1{
+    padding: 20px;
+    padding-top: 0px;
+}
+.bannerText p{
+    font-size: 20px !important;
+}
+
+.bannerText p span {
+    font-size: 20px;
+    color:#0396A6;
+}
+
+.Home {
+    padding: 20px;
+    min-height: 350px;
+}
+
+.Home-sub {
+    text-align: center;
+}
+
+.Home-sub p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.Home-sub p span {
+    font-size: 30px;
+    font-variant: small-caps;
+    margin: 0px;
+    color: #0396A6;
+}
+
+/* Feature Row Style Starts */
+
+.hero{    
+    min-height: 350px;
+
+}
+
+.heroPicMain{
+    text-align: right;
+}
+
+.heroPic{
+    text-align: right;
+}
+
+.heroPic img {
+    max-height: 40vh;
+    margin: 1rem;
+}
+
+.heroContentMain{
+    padding: 1rem;
+}
+
+.heroContent{
+    padding: 20px;
+}
+.heroText h1{
+    color: #0396A6;
+    font-size: 40px;
+}
+.heroText h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.intro-text{
+}
+.lead{
+    color: #0396A6;
+}
+
+
+.iconMain {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.iconSub {
+}
+
+.iconSub i {
+    color: #0396A6;
+    font-size: 40px;
+    padding: 3px;
+}
+
+.iconSub i:hover {
+    color: #19B274;
+    
+}
+
+
+
+/* Footer page Style Starts */
+
+.footer {
+    padding: 5px;
+   
+}
+
+.lastLine {
+    text-align: center;
+}
+
+.lastLine span {
+    font-size: 15px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+/* footer page Style Ends */
+
+
+.svgRes {
+    width: 500px;
+    height: 500px;
+}
